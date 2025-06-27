@@ -79,4 +79,11 @@
     justify-content: end;
     gap: 16px;
   }
+  .nav-link:hover,
+  .nav-link:focus,
+  .contacts-link:hover,
+  .contacts-link:focus,
+  .nav-link.current {
+    color: #818482;
+  }
 }
