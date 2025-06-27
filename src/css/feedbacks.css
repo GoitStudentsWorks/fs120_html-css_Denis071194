@@ -91,5 +91,20 @@ row-gap: 32px;
    }
 }
 @media screen and (min-width:1440px) {
-
+.feedback-title{
+ 
+    font-family: "Comfortaa", sans-serif;
+    font-size: 48px;
+    margin: 64px auto 80px auto;
+    width: 560px;
+}
+.feedback-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    margin-bottom: 64px;
+ } 
+ .feedback-item:last-child .feedback-comment{
+margin-bottom:52px ;
+ }
 }
