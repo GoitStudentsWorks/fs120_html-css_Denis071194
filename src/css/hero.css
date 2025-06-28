@@ -11,7 +11,6 @@
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.01em;
-
   margin-bottom: 20px;
 }
 
@@ -22,7 +21,6 @@
 
   margin-bottom: 24px;
 }
-
 .btn {
   display: flex;
   align-items: center;
@@ -54,18 +52,17 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .hero-section-button {
   margin-bottom: 24px;
 }
 
-img {
+.hero-section img {
   border-radius: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .hero-section {
-    padding-top: 32px;
+    max-width: 768px;
   }
 
   .hero-section-wrapper-big {
@@ -96,12 +93,19 @@ img {
     min-width: 148px;
   }
 
-  img {
+  .hero-section img {
     min-width: 704px;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .container {
+    padding: 0 64px;
+  }
+  .hero-section {
+    max-width: 1440px;
+  }
+
   .hero-section-wrapper-big {
     gap: 32px;
   }
@@ -115,7 +119,7 @@ img {
     font-size: 56px;
   }
 
-  img {
+  .hero-section img {
     min-width: 1312px;
   }
 }
