@@ -1,7 +1,6 @@
 .hero-section {
   padding-top: 64px;
   padding-bottom: 64px;
-  max-width: 320px;
   margin: 0 auto;
 }
 
@@ -35,7 +34,6 @@ img {
 @media screen and (min-width: 768px) {
   .hero-section {
     padding-top: 32px;
-    max-width: 768px;
   }
 
   .hero-section-wrapper-big {
@@ -72,10 +70,6 @@ img {
 }
 
 @media screen and (min-width: 1440px) {
-  .hero-section {
-    max-width: 1440px;
-  }
-
   .hero-section-wrapper-big {
     gap: 32px;
   }
