@@ -37,6 +37,9 @@
     margin-bottom: 48px;
 
  }
+ .advantages-thumb {
+
+ }
 
  .advantages-list {
     display: flex;
@@ -126,6 +129,9 @@
     .advantages-text {
         margin-bottom: 80px;
     }
+    .advantages-thumb { 
+        margin-right: 608px;
+     }
 
     .advantages-list {
         gap: 24px;
