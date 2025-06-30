@@ -118,6 +118,16 @@
             margin-top: 32px;
             margin-bottom: 8px;
          }
+        .advantages-item-title-ext {
+            margin-bottom: 42.7px;
+        }
+        /* .advantages-item-content {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            gap: 8px;
+        } */
        
  }
 
@@ -130,7 +140,7 @@
         margin-bottom: 80px;
     }
     .advantages-thumb { 
-        margin-right: 608px;
+        margin-right: 544px;
      }
 
     .advantages-list {
@@ -144,6 +154,9 @@
         font-size: 32px;
         margin-bottom: 24px;
     }
+        .advantages-item-title-ext {
+            margin-bottom: 24px;
+        }
         .advantages-item-last {
             width: calc((100% - 48px) / 3);
         }
