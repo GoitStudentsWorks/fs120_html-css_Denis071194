@@ -1,11 +1,9 @@
 /*-----SECTION-ASSORTMENT----*/
 
-.container-assortment {
-  padding-top: 32px;
-}
-
 .section-assortment {
   background-color: #ebf8ed;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .assortment-title {
@@ -86,8 +84,9 @@
 /*--------SECTION-ASSORTMENT-TABLET----*/
 
 @media screen and (min-width: 768px) {
-  .container-assortment {
-    padding: 64px 32px;
+  .section-assortment {
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 
   .assortment-list {
@@ -107,10 +106,6 @@
 /*--------SECTION-ASSORTMENT-DESKTOP----*/
 
 @media screen and (min-width: 1440px) {
-  .container-assortment {
-    padding: 64px 64px;
-  }
-
   .assortment-list {
     row-gap: 64px;
   }

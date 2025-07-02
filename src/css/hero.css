@@ -21,6 +21,10 @@
 
   margin-bottom: 24px;
 }
+a.btn {
+  text-decoration: none;
+  display: inline-flex;
+}
 .btn {
   display: flex;
   align-items: center;
