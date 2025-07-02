@@ -89,10 +89,13 @@
 
 .nav-link-footer:focus,
 .nav-link-footer:hover,
-.footer-icon:hover,
-.footer-icon:focus {
+.footer-icon:hover {
   color: #818482;
   fill: #818482;
+}
+.footer-social-link:focus {
+  outline: 1px solid #818482;
+  border-radius: 4px;
 }
 
 @media screen and (min-width: 768px) {
